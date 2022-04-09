@@ -15,3 +15,30 @@ button {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+li {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+li a:hover {
+    background-color: #111;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 8px 12px;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
